@@ -1,4 +1,6 @@
+#include<bits/stdc++.h>
 #include "Camera.h"
+using namespace std;
 
 Camera::Camera()
 {
@@ -18,9 +20,9 @@ void Camera::PanView(float x, float y)
 
 void Camera::ZoomView(float zoom)
 {
-    Zoom *= zoom;
+    Zoom = zoom* zoom;
     cameraView.zoom(zoom);
-    std::cout << Zoom << std::endl;
+    cout << Zoom << std::endl;
 }
 
 void Camera::BindView(sf::RenderWindow &g_window)
