@@ -1,3 +1,4 @@
+### About Blender 2D Atlas Generator.
 This project contains two programs:
 - Atlas - Blender plugin written in Pyhton used to generate image atlas from animations in Blender.
 - 2D_Game_Atlas - 2D animation showcase usage of Atlas plugin generated images. This program uses two atlas generated images for walking and standing: Walk.png, Stand.png which are located in Data/Textures/Player
@@ -20,4 +21,7 @@ In order to generate the atlas image:
 3. On the right "Atlas generator" tab will appear which allows you to change the number of rows, columns and outline for the atlas generator.
 4. Once you click the "Start atlas", rendering will start and once it finished the atlas image will appear in Output directory which is by default: C:/tmp\
 
-
+### Example
+Example of generated atlas for staying and walking animation from 3D Blender model. 
+![Staying](https://raw.githubusercontent.com/Andrzejandy/2D-Game-Atlas-showcase/master/2D%20game%20-%20Atlas%20showcase/My2DGame/Data/Textures/Player/Stay.png)
+![Walking](https://raw.githubusercontent.com/Andrzejandy/2D-Game-Atlas-showcase/master/2D%20game%20-%20Atlas%20showcase/My2DGame/Data/Textures/Player/Walk.png) 
